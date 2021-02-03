@@ -7,14 +7,13 @@ But by doing some tweaks, there's some way to manually export and import the lis
 ## Requirement
 
 - Chromium Web Browser (e.g.: [Brave](https://brave.com/))
-- [Firefox Web Browser](https://www.mozilla.org/en-US/firefox/new/) (yep, you need both Firefox & Chromium)
 - [nodejs](https://nodejs.org/en/)
 
 ## Steps
 
 ### 1. Backup all of your information
 
-1. Open Firefox and install this extension: [Netflix List Exporter](https://addons.mozilla.org/en-US/firefox/addon/netflix-list-exporter/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search).
+1. Open any web browser and install the extension [Netflix List Exporter](https://github.com/daltonmenezes/netflix-list-exporter) written by Dalton Menezes.
 2. Login into the old profile and go to your [My-List page](https://www.netflix.com/browse/my-list), there should be 3 buttons to export your upvotes, downvotes and your watch list.
 3. save them as text files or `.csv`, will use them as an answer to examine the export/import result.
 

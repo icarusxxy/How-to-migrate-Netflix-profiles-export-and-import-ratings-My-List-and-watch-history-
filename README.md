@@ -27,17 +27,17 @@ But by doing some tweaks, there's some way to manually export and import the lis
 3. You'll be prompted to enter your Netflix password, if the password and the profile name is correct, a `.json` file will be created under the current directory.
 4. Use the following command to import the `.json` ratings to the new profile:  
 `netflix-migrate --email new@example.com --profile NewProfileName --import ratings.json`
-5. Login into the new profile, or use the text-file/`.csv` you saved in the first step to check if the import is correct and complete. This should be fine. If not, head to the [original repo site](https://github.com/LBBO/netflix-migrate) to find out further support.
+5. Login into the new profile, or use the text-file/`.csv` you saved in the first step to check if the import is correct and complete. In my case the import is succeeded and seems life all of my ratings is now in the new profile without any omission. If not, head to the [original repo site](https://github.com/LBBO/netflix-migrate) to find out further support.
 
 ### 3. Export and Import Watch List
 
 1. Use the Chromium browser and install this extension: ["Netflix Watch List Manager"](https://chrome.google.com/webstore/detail/netflix-watch-list-manage/obgidigipndchfoaapdbldekffjpmmfa?hl=en).
 2. Follow the extension's instruction, first login into the old profile and go to the [MyListOrder page](https://www.netflix.com/mylistorder) and change the list order to munaul instead of Netflix's recommendation.
 3. Go to the [My-List page](https://www.netflix.com/browse/my-list) and click the extension icon, and click the "Export" button.
-4. This will generate another `.json` file containing your watch list, composed of the title and the movieID. In my case howere, comparing to the text-file/.csv you saved in the first step, there are lacking some of the movies & shows (for me it is 323 out of 351).
+4. This will generate another `.json` file containing your watch list, composed of the title and the movieID. In my case howere, comparing to the text-file/`.csv` you saved in the first step, there are lacking some of the movies & shows (for me it is 323 out of 351).
 5. Next, login into the _new_ profile and go to the [My-List page](https://www.netflix.com/browse/my-list), click the extension icon, and finally click the "Import" button.
 6. This should import _all_ of the movies/shows you just export, yet again, I'm encountering some lacking, only got 234 out of 323.
-7. If you want to compare what didn't being imported, just export again and compare the two `.json` files, and you can manually add them if you want.
+7. If you want to compare what didn't being imported, just export again and compare the two `.json` files, or again compare to the text-file/`.csv` from the first step, and you can manually add them if you want.
 
 ### 4. Import watch history
 
@@ -53,4 +53,4 @@ With about 70% completeness, you can examine the rest to decide whether to add t
 
 All of the scripts are googled, and should be use at your own risks.  
 
-As in [LBBO's "netflix migrate" repo](https://github.com/LBBO/netflix-migrate) stated, use of the script may constitute a breach in Netflix's Terms of Use and/or their End User License Agreement. 
+As in [LBBO's "netflix migrate" repo](https://github.com/LBBO/netflix-migrate) stated, use of the script may constitute a breach in Netflix's Terms of Service and/or their End User License Agreement. 

@@ -27,7 +27,7 @@ But by doing some tweaks, there's some way to manually export and import the lis
 3. You'll be prompted to enter your Netflix password, if the password and the profile name is correct, a `.json` file will be created under the current directory.
 4. Use the following command to import the `.json` ratings to the new profile:  
 `netflix-migrate --email new@example.com --profile NewProfileName --import ratings.json`
-5. Login into the new profile, or use the text-file/`.csv` you saved in the first step to check if the import is correct and complete. In my case the import is succeeded and seems life all of my ratings is now in the new profile without any omission. If not, head to the [original repo site](https://github.com/LBBO/netflix-migrate) to find out further support.
+5. Login into the new profile, or use the text-file/`.csv` you saved in the first step to check if the import is correct and complete. In my case the import is succeeded and seems like all of my ratings is now in the new profile without any omission. If not, head to the [original repo site](https://github.com/LBBO/netflix-migrate) to find out further support.
 
 ### 3. Export and Import Watch List
 
